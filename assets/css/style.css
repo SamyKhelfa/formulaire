@@ -1,0 +1,54 @@
+body {
+  background-color: #7359dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background-color: #e5e5e5;
+  width: 80%;
+  max-width: 500px;
+  height: 800px;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  padding-top: 20px;
+}
+
+form h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  width: 95%; /* Pour agrandir les champs */
+  padding: 15px 10px; /* Augmentation du padding pour agrandir les champs */
+  margin: 15px 0; /* Augmenter l'espacement entre les champs */
+  border: none;
+  border-radius: 5px; /* Arrondi plus prononcé */
+}
+
+button {
+  background-color: #7359dc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: black;
+}
